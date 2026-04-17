@@ -79,10 +79,12 @@ pPegawai/
 
 Project ini dibuat untuk memenuhi tugas / ujian praktik dalam pembuatan aplikasi CRUD menggunakan Delphi dan database MySQL.
 
+---
+
+## 🚀 Catatan
+
 Project ini masih sederhana dan dapat dikembangkan lebih lanjut seperti:
 
 * Validasi input
 * Pencarian data
 * Tampilan UI yang lebih menarik
-
-```
