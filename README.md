@@ -1,90 +1,76 @@
-# 🧑‍💻 CRUD Data Pegawai - Delphi
+<h1 align="center">
+  👨‍💼 Employee Desk
+</h1>
 
-Aplikasi CRUD (Create, Read, Update, Delete) sederhana untuk mengelola data pegawai menggunakan Delphi dan database MySQL melalui koneksi ODBC.
+<p align="center">
+  A simple CRUD desktop application built with Delphi and MySQL for employee management.
+</p>
 
----
-
-## ✨ Fitur
-
-* ➕ Tambah data pegawai
-* ✏️ Edit data pegawai
-* 🗑️ Hapus data pegawai
-* 📋 Menampilkan data di DBGrid
-
----
-
-## 🛠️ Teknologi yang Digunakan
-
-* Delphi (VCL Forms Application)
-* MySQL (XAMPP)
-* ODBC (MySQL ODBC Driver)
+<p align="center">
+  <img src="https://img.shields.io/badge/Delphi-VCL-red?style=for-the-badge">
+  <img src="https://img.shields.io/badge/MySQL-Database-blue?style=for-the-badge&logo=mysql">
+  <img src="https://img.shields.io/badge/Status-Completed-success?style=for-the-badge">
+</p>
 
 ---
 
-## 🗄️ Struktur Database
+## ✨ About Project
 
-Nama database: `db_pegawai`
+This project is a simple employee management application created as part of my journey in learning desktop application development using Delphi and MySQL.
 
-Tabel: `pegawai`
-
-```sql
-CREATE TABLE pegawai (
-  nip VARCHAR(20) PRIMARY KEY,
-  nama VARCHAR(50),
-  golongan VARCHAR(10),
-  tgl_lahir DATE,
-  gaji_pokok INT
-);
-```
+The application implements CRUD (Create, Read, Update, Delete) operations and displays employee data through a user-friendly desktop interface.
 
 ---
 
-## ⚙️ Cara Menjalankan Project
+## 🚀 Features
 
-1. Jalankan XAMPP (Apache & MySQL)
-
-2. Import / buat database `db_pegawai` di phpMyAdmin
-
-3. Setup ODBC:
-
-   * Data Source Name: `pegawai_db`
-   * Server: `localhost`
-   * User: `root`
-   * Password: (kosong)
-   * Database: `db_pegawai`
-
-4. Buka file project di Delphi:
-
-   ```
-   pPegawai.dpr
-   ```
-
-5. Jalankan aplikasi ▶️
+- ➕ Add employee data
+- ✏️ Edit employee data
+- 🗑️ Delete employee data
+- 📋 Display data using DBGrid
+- 💾 Store data in MySQL database
 
 ---
 
-## 📁 Struktur Project
+## 🛠️ Built With
 
-```
-pPegawai/
+- Delphi (VCL Forms Application)
+- MySQL
+- ODBC Driver
+- XAMPP
+
+---
+
+## 📂 Project Structure
+
+```bash
+employee-desk/
+│
 ├── pPegawai.dpr
 ├── Unit1.pas
 ├── Unit1.dfm
-├── README.md
+└── README.md
 ```
 
 ---
 
-## 🎯 Tujuan Project
+## 🎯 Learning Goals
 
-Project ini dibuat untuk memenuhi tugas / ujian praktik dalam pembuatan aplikasi CRUD menggunakan Delphi dan database MySQL.
+- Understanding CRUD operations
+- Learning database connectivity with ODBC
+- Practicing desktop application development using Delphi
+- Improving problem-solving and database management skills
 
 ---
 
-## 🚀 Catatan
+## 👩🏻‍💻 Author
 
-Project ini masih sederhana dan dapat dikembangkan lebih lanjut seperti:
+**Nur Islami Sabila**
 
-* Validasi input
-* Pencarian data
-* Tampilan UI yang lebih menarik
+Frontend Developer & Informatics Student Candidate from Indonesia 🇮🇩
+
+> "Learning by building, growing by creating."
+
+---
+
+⭐ If you like this project, don't forget to give it a star.
